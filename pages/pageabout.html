@@ -1,0 +1,937 @@
+<!doctype html>
+<html lang="en-US" class="webp no-webp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GM IT System</title>
+        <script
+        type='text/javascript'
+        src='../js/jquery.min.js'
+></script>
+    <script
+        type='text/javascript'
+        src='../js/jquery-migrate.min.js'
+        id='jquery-migrate-js'></script>
+        <script
+            src="../js/SmoothScroll.min.js"
+            integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+            crossorigin="anonymous"
+            async="async"></script>
+            <link
+            media="all"
+            href="../styles/aboutstyle.css"
+            rel="stylesheet"/>
+    </head>
+    <body
+        class="page-template page-template-templates page-template-company-v3 page-template-templatescompany-v3-php page page-id-221 page-parent wp-custom-logo mega-menu-header-menu cookies-set cookies-accepted elementor-default elementor-kit-20711">
+        <noscript>
+            <iframe
+                class="lazyload"
+                data-src="https://www.googletagmanager.com/ns.html?id=GTM-K48JCH8"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <header class="header" id="header">
+            <!-- <div class="search_panel">
+                <div class="container search-content">
+                    <div class="header-logo">
+                        <a href="/"><img
+                            class="lazyload"
+                            src="../image/imag.png"
+                            alt="Logo"></a>
+                    </div>
+                    <form action="/" id="search-form">
+                        <input
+                            type="text"
+                            name="s"
+                            value=""
+                            placeholder="e.g. Business Intelligence"
+                            class="input-search"
+                            id="inputsearchid"
+                            tabindex="2"/>
+                        <div class="button button_s button_blue button-search">
+                            <input type="submit" class="submit" value="Search"/></div>
+                    </form>
+                    <div class="search-close-container">
+                        <div class="search-close"></div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="container header-top">
+                <div class="header-logo" style="margin-left: 0px;">
+                    <a href="../index.html"><img
+                        class="lazyload"
+                        src="../image/imag.png"
+                        alt="Logo"></a>
+                </div>
+                <nav class="header-navigation">
+                    <div id="mega-menu-wrap-header-menu" class="mega-menu-wrap">
+                        <div class="mega-menu-toggle">
+                            <div class="mega-toggle-blocks-left"></div>
+                            <div class="mega-toggle-blocks-center"></div>
+                            <div class="mega-toggle-blocks-right">
+                                <div
+                                    class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1'
+                                    id='mega-toggle-block-1'
+                                    tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div>
+                            </div>
+                        </div>
+                        <ul
+                            id="mega-menu-header-menu"
+                            class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js"
+                            data-event="hover_intent"
+                            data-effect="fade_up"
+                            data-effect-speed="200"
+                            data-effect-mobile="disabled"
+                            data-effect-speed-mobile="0"
+                            data-mobile-force-width="false"
+                            data-second-click="go"
+                            data-document-click="collapse"
+                            data-vertical-behaviour="standard"
+                            data-breakpoint="600"
+                            data-unbind="false"
+                            data-hover-intent-timeout="300"
+                            data-hover-intent-interval="100">
+                            <li
+                                class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-14597'
+                                id='mega-menu-item-14597'>
+                                <a
+                                    class="mega-menu-link"
+                                    href="../index.html"
+                                    tabindex="0">Главная</a>
+                            </li>
+                            
+                           
+                            
+                            
+                            <li
+                                class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-14599'
+                                id='mega-menu-item-14599'>
+                                <a class="mega-menu-link" href="./projects.html" tabindex="0">Проекты</a>
+                            </li>
+                            <li
+                                class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-14599'
+                                id='mega-menu-item-14599'>
+                                <a class="mega-menu-link" href="./staticpage.html" tabindex="0">Миссия коомпании</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button button_s">
+                        <a
+                            href="https://www.instinctools.com/contact-us"
+                            data-title="header-contact-us">Контакты</a>
+                    </div>
+                   
+                </nav>
+                <div class="header-right">
+                    <!-- <div class="header-right__search">
+                        <svg
+                            width="16px"
+                            height="16px"
+                            viewbox="0 0 16 16"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g
+                                    id="itools_20"
+                                    transform="translate(-1066.000000, -57.000000)"
+                                    fill="#FFFFFF"
+                                    fill-rule="nonzero">
+                                    <g id="Group-18">
+                                        <g id="Group-9">
+                                            <g id="Bitmap">
+                                                <path
+                                                    d="M1076.68501,58.8305858 C1074.24407,56.3898047 1070.27125,56.3898047 1067.83031,58.8305858 C1065.3899,61.271896 1065.3899,65.2439194 1067.83031,67.6852296 C1070.00403,69.8582814 1073.3895,70.0910895 1075.82885,68.394236 C1075.88018,68.6370972 1075.99765,68.868847 1076.18656,69.057739 L1079.74135,72.6122952 C1080.25938,73.1292349 1081.09649,73.1292349 1081.61187,72.6122952 C1082.12938,72.0948263 1082.12938,71.2577754 1081.61187,70.7418939 L1078.05708,67.1862795 C1077.86924,66.9989749 1077.63694,66.8809835 1077.39406,66.8296599 C1079.09209,64.389937 1078.85926,61.005225 1076.68501,58.8305858 Z M1075.5627,66.5629888 C1073.74032,68.3852412 1070.77447,68.3852412 1068.95263,66.5629888 C1067.13131,64.7407365 1067.13131,61.7756081 1068.95263,59.9533557 C1070.77447,58.1316325 1073.74032,58.1316325 1075.5627,59.9533557 C1077.38507,61.7756081 1077.38507,64.7407365 1075.5627,66.5629888 Z"
+                                                    id="Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="button button_s">
+                        <a
+                            href="https://www.instinctools.com/contact-us"
+                            data-title="header-contact-us">Контакты</a>
+                    </div>
+                    <!-- <div class="header-right__language">
+                        <span class="active">en</span>
+                         <span>
+                            <a
+                                rel="nofollow"
+                                href="https://www.instinctools.com/de/services/innovation-consulting">de</a></span></div> -->
+                </div>
+            </div>
+            <div class="header-image__wrap" style="display: flex; align-items: center;">
+               
+                    <img
+                        class="header__image lazyload"
+                        src="../image/fonaboutpg.jpeg"
+                        alt="Header" />
+                
+            </div>
+            <div class="container header-content header-content-inner">
+                <h1 class="header-content-inner__title header-content-inner__title_sm">
+                    GM IT System
+ </h1>
+                <p
+                    class="header-content-inner__description header-content-inner__description_sm ">
+                    <br> Полный цикл ИТ-услуг: от консалтинга до эксплуатации,
+                    <br> от бизнес-приложений до инфраструктуры.
+                    
+                   
+
+
+                    </p>
+                
+            </div>
+        </header>
+        <main id="main" class="main-inner">
+            <section
+                class="lines-content lines-content_big lines-content_big-margin-t lines-content_overflowed lines-text">
+                <span class="draw draw_color-left draw-1"></span>
+                <span class="draw draw_color-right draw_orange draw-2"></span>
+                <span class="draw draw_color-right draw_orange draw-3"></span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p class="title-info__description title-info__description_xsmall">
+                               <br> ОО «GM IT System» - эта транснациональная команда, 
+                                <br> деятельность которой является предоставление услуг 
+                                <br> консалтинга в области автоматизации бизнес-процессов, 
+                                <br> а также разработки программного обеспечения различного 
+                                <br> уровня сложности и платформ. Благодаря опыту и нацеленности 
+                                <br> на результат команда завоевала доверие нескольких крупных 
+                                <br> международных компаний, с которыми ведется сотрудничество 
+                                <br> и по сей день. Прозрачная модель ценообразования, высокая 
+                                <br> квалификация сотрудников, позволяет завоевывать новые рынки 
+                                <br> и твердо смотреть в будущее.</p>
+                            <p class="title-info__description title-info__description_xsmall">
+                                Миссия компании заключается в предоставлении передовых технологий ведения бизнеса, на основе следующих принципов:</p>
+                            <p class="title-info__description title-info__description_xsmall">
+                               <strong>-  Честность</strong>  во всём. Компания следует принципу полной прозрачности взаимоотношений с партнерами.
+                            </p>
+                            <p class="title-info__description title-info__description_xsmall">
+                                - Необратимость обязательств. Все задачи, возложенные <br> на компанию, 
+                                выполняются в срок и в высоком качестве, вне зависимости от внешних 
+                                условий. Для достижения принципов, компания основывается на 
+                                международных стандартах по <br> менеджменту качества и управления 
+                                <br> конфигурацией в проектах – ISO 9000:2000, <br> 10005, 10006, 10007 и др.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="lines-content lines-content_big lines-content_big-margin-t whytochoose xl_margin-b-0">
+                <div class="container padding_m text-center">
+                    <h2 class="inner-title color_white text-center">
+                        Достижения</h2>
+                    <div class="whytochoose-numbers counter-num-wrap margin-0">
+                        <div class="whytochoose-numbers__item">
+                            <div class="whytochoose-numbers__wrap">
+                                <div class="whytochoose-numbers__number">
+                                    <span class="counter-num" data-count="127">0</span>+</div>
+                                <div class="whytochoose-numbers__description">
+                                    Успешных проектов</div>
+                            </div>
+                        </div>
+                        <div class="whytochoose-numbers__item">
+                            <div class="whytochoose-numbers__wrap">
+                                <div class="whytochoose-numbers__number">
+                                    <span class="counter-num" data-count="12">0</span></div>
+                                <div class="whytochoose-numbers__description">
+                                    лет на рынке</div>
+                            </div>
+                        </div>
+                        <div class="whytochoose-numbers__item">
+                            <div class="whytochoose-numbers__wrap">
+                                <div class="whytochoose-numbers__number">
+                                    <span class="counter-num" data-count="208">0</span>+</div>
+                                <div class="whytochoose-numbers__description">Профессионалы</div>
+                            </div>
+                        </div>
+                        <div class="whytochoose-numbers__item">
+                            <div class="whytochoose-numbers__wrap">
+                                <div class="whytochoose-numbers__number">
+                                    <span class="counter-num" data-count="350">+</span></div>
+                                <div class="whytochoose-numbers__description">Довольных клиентов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lines-content lines-content_big margin-b-0 xl_margin-t-0">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="col-xs-12 inner-title">
+                            НАШИ ПРЕИМУЩЕСТВА:</h2>
+                    </div>
+                    <article class="content-image-section__wrapper">
+                        <div class="row content-image-section">
+                            <div class="col-xs-6 content-image-section__content">
+                                <div class="title-info title-info_small">
+                                    <h4 class="title-info__title">
+                                        ОСНОВНЫМИ ПРЕИМУЩЕСТВАМИ КОМПАНИИ ЯВЛЯЕТСЯ:</h4>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Сплоченная команда квалифицированных единомышленников 
+                                       с большим опытом успешных проектов.
+                                        </p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Нацеленность на успех клиентов.</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Прозрачное фиксированное ценообразование.</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Применение лучших передовых практик мирового опыта.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 content-image-section__image">
+                                <div
+                                    class="image-concealer image-concealer_cornered image-concealer_skew section-resize-md">
+                                   
+                                        
+                                        <img
+                                            class="hidden-image show-image company-image lazyload"
+                                            src="../image/29195.jpg"
+                                            alt="Reliability and credibility" style="width: 100px; height: auto">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="content-image-section__wrapper">
+                        <div class="row content-image-section content-image-section--reversed">
+                            <div class="col-xs-5 col-sm-offset-1 content-image-section__content">
+                                <div class="title-info title-info_small">
+                                    <h4 class="title-info__title">
+                                        НАШИ УСЛУГИ</h4>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Анализ экономической политики.</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Анализ бизнес-процессов компаний</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Система управления клиентами (CRM)</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Система электронного документооборота (ЕCM)</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Платежные системы</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        IP-телефония (колл-центры)</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Анализ бизнес-процессов компаний</p>    
+                                </div>
+                            </div>
+                            <div class="col-xs-6 content-image-section__image">
+                                <div
+                                    class="image-concealer image-concealer_cornered image-concealer_skew section-resize-md">
+                                    <img
+                                            class="hidden-image show-image company-image lazyload"
+                                            src="../image/Wavy_Tech-05_Single-01.jpg"
+                                            alt="Reliability and credibilites" style= "height: 180%">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="content-image-section__wrapper">
+                        <div class="row content-image-section">
+                            <div class="col-xs-6 content-image-section__content">
+                                <div class="title-info title-info_small">
+                                    <h4 class="title-info__title">
+                                        ВНЕДРЕНИЕ ТЕХНОЛОГИЙ</h4>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Программное обеспе̋ение для организаций, 
+                                        предназна̋енное для автоматизации стратегий 
+                                        взаимодействия с заказ̋иками NклиентамиO, в 
+                                        ̋астности для повышения уровня продаж, 
+                                        оптимизации маркетинга и улӳшения 
+                                        обслуживания клиентов</p>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Специалисты компании проводят глубокий 
+                                        анализ теку̎ей работы клиента, ̉ормируя 
+                                        при ̗том макеты бизнес структуры и 
+                                        процессов. ʁатем выявляют слабые стороны и 
+                                        необходимые изменения для достижения 
+                                        целей поставленных собственниками 
+                                        бизнеса </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 content-image-section__image">
+                                <div
+                                    class="image-concealer image-concealer_cornered image-concealer_skew section-resize-md">
+                                    <img
+                                            class="hidden-image show-image right-image company-image lazyload"
+                                            src="../image/18146.jpg"
+                                            alt="Customer-centric approach" style= "height: 100%">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- <article class="content-image-section__wrapper">
+                        <div class="row content-image-section content-image-section--reversed">
+                            <div class="col-xs-5 col-sm-offset-1 content-image-section__content">
+                                <div class="title-info title-info_small">
+                                    <h4 class="title-info__title">
+                                        High standards</h4>
+                                    <p class="title-info__description title-info__description_xsmall">
+                                        Working with big enterprises such as SAP, Daimler,
+                                        <br>Fujitsu etc. and medium-sized businesses from all
+                                        <br>over the world, we have successfully met clients’
+                                        <br>expectations in processes, communication,
+                                        <a href="https://www.instinctools.com/company/work-approach">price
+                                            <br>agreements</a>, and quality standards for project delivery.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 content-image-section__image">
+                                <div
+                                    class="image-concealer image-concealer_cornered image-concealer_skew section-resize-md">
+                                    <img
+                                            class="hidden-image show-image left-image company-image-left process lazyload"
+                                            src="../image/fon.jpg"
+                                            alt="High standards">
+                                </div>
+                            </div>
+                        </div>
+                    </article> -->
+                </div>
+            </section>
+            <section class="lines-content margin-0 margin-t-0 lg_margin-b-0">
+                <div class="container text-center">
+                    <div class="row feedback">
+                        <div class="col-md-4 col-uxl-3 col-uxl-offset-1">
+                            <div class="feedback__image">
+                                <img
+                                            class="hidden-image show-image left-image company-image-left process lazyload"
+                                            src="../image/18383.jpg"
+                                            alt="High standards" style="height: 130%;">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-uxl-7 feedback__content">
+                            <span class="draw draw_color-left draw-1"></span>
+                            <span class="draw draw_color-right draw_orange draw-2"></span>
+                            <!-- <div class="feedback__icon">
+                                <img
+                                    class="lazyload"
+                                    width="53"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2053%2053%22%3E%3C/svg%3E"
+                                    data-src="/wp-content/themes/instinctools/image/testemonial.svg"
+                                    height="53"></div> -->
+                            <div class="feedback__text">
+                                <p>
+                                    “Информация о сотруднике”</p>
+                                <p class="feedback__author">Имя сотрудника</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lines-content lines-content_space lines-content_big margin-t-0">
+                <span
+                    class="draw draw_color-right draw_left-space draw_green contact-line-left"></span>
+                <span class="draw draw_color-left draw_right-space contact-line-right"></span>
+                <div class="container">
+                    <div class="row call-to-action">
+                        <p class="call-to-action__title" style="font-weight: 300;">
+                            У вас возникли вопросы? <br>
+                        <strong>Вы можете позвонить нам прямо сейчас</strong>
+                        </p>
+                        <div class="call-to-action__button">
+                            <div class="button button_bg-gray">
+                                <a href="tel: +996505854121">
+                                    Позвонить
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lines-content achives">
+                <div class="container achives__wrap">
+                    <div class="achives-slider">
+                        <a
+                            class="achives-slider__link"
+                            href="https://amadeus.com/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner1.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://www.otrar.kz/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner10.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://www.sirena-travel.ru/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner12.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://soros.kg/srs/ru/home_ru"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner15.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="http://www.rantour.az/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner13.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="#"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner16.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="#"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner2.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://ab.kg/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner3.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://nambamedia.kg/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner4.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://www.flydubai.com/ru/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner5.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://www.uniglobe.com/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner6.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://concept.kg/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner7.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://www.facebook.com/GabrielTravel"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner8.png"></a>
+                        <a
+                            class="achives-slider__link"
+                            href="https://www.otrar.kz/"
+                            target="_blank"
+                            rel="nofollow"><img
+                            width="100%"
+                            height="100%"
+                            class="achives-slider__img not-lazy-load"
+                            alt="award"
+                            src="../image/partner10.png"></a>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer" >
+            <div class="container">
+                <div class="padding_m footer__wrap">
+                    <div class="footer-col">
+                        <h3 class="footer-col__title">Контакты</h3>
+                        <div class="footer-menu">
+                            <ul class="footer-menu__list">
+                                <li>
+                                    <a href="tel:+996508417485">996508417485</a>
+                                </li>
+                                <li>
+                                    <a href="tel:+996508417485">996508417485</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3 class="footer-col__title">Контакты</h3>
+                        <div class="footer-menu">
+                            <ul class="footer-menu__list">
+                                <li>
+                                    <a href="tel:+996508417485">996508417485</a>
+                                </li>
+                                <li>
+                                    <a href="tel:+996508417485">996508417485</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3 class="footer-col__title">Контакты </h3>
+                        <div class="footer-menu">
+                            <ul class="footer-menu__list">
+                                <li>
+                                    <a href="tel:+996508417485">996508417485</a>
+                                </li>
+                                <li>
+                                    <a href="tel:+996508417485">996508417485</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3 class="footer-col__title">Email почта</h3>
+                        <div class="footer-menu">
+                            <ul class="footer-menu__list">
+                                <li>
+                                    <a href="mailto: put_in_byte@gmail.com">put_in_byte@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a href="mailto: put_in_byte@gmail.com">put_in_byte@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                     
+                   
+            </div>
+        </footer>
+        <script>
+            SmoothScroll({
+                // Время скролла 400 = 0.4 секунды
+                animationTime: 700,
+                // Размер шага в пикселях
+                stepSize: 75,
+
+                // Дополнительные настройки: Ускорение
+                accelerationDelta: 70,
+                // Максимальное ускорение
+                accelerationMax: 2,
+
+                // Поддержка клавиатуры
+                keyboardSupport: true,
+                // Шаг скролла стрелками на клавиатуре в пикселях
+                arrowScroll: 50,
+
+                // Pulse (less tweakable) ratio of "tail" to "acceleration"
+                pulseAlgorithm: true,
+                pulseScale: 4,
+                pulseNormalize: 1,
+
+                // Поддержка тачпада
+                touchpadSupport: true
+            })
+        </script>
+        <script type='text/javascript' id='contact-form-7-js-extra'>
+            var wpcf7 = {
+                "apiSettings": {
+                    "root": "https:\/\/www.instinctools.com\/wp-json\/contact-form-7\/v1",
+                    "namespace": "contact-form-7\/v1"
+                }
+            };
+        </script>
+        <script
+            type='text/javascript'
+            src='../js/autoptimize_single_eea94f6013d8a939c0b4ace7753afe6e.js'
+            id='contact-form-7-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/codedropz-uploader-min.js'
+            id='codedropz-uploader-js'></script>
+        <script type='text/javascript' id='dnd-upload-cf7-js-extra'>
+            var dnd_cf7_uploader = {
+                "ajax_url": "https:\/\/www.instinctools.com\/wp-admin\/admin-ajax.php",
+                "ajax_nonce": "39b453a15c",
+                "drag_n_drop_upload": {
+                    "text": "Drag & Drop Files Here",
+                    "or_separator": "or",
+                    "browse": "Browse Files",
+                    "server_max_error": "The uploaded file exceeds the maximum upload size of your server.",
+                    "large_file": "Uploaded file is too large",
+                    "inavalid_type": "Uploaded file is not allowed for file type",
+                    "max_file_limit": "Note : Some of the files are not uploaded ( Only %count% files allowed )",
+                    "required": "This field is required.",
+                    "delete": {
+                        "text": "deleting",
+                        "title": "Remove"
+                    }
+                }
+            };
+        </script>
+        <script
+            type='text/javascript'
+            src='../js/autoptimize_single_ce82f35ee216e027b9adfa79d2994e8f.js'
+            id='dnd-upload-cf7-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/url.min.js'
+            id='domurl-script-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/slick.min.js'
+            id='slick-script-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/autoptimize_single_ee972ae9e0e5b58452d8ed4069511051.js'
+            id='clamp-script-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/jquery.magnific-popup.min.js'
+            id='magnific-popup-script-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/autoptimize_single_04bfbfc63827722e33460f2429851116.js'
+            id='instinctools-jquery-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/jquery.validate.min.js'
+            id='instinctools-jquery-validate-js'></script>
+        <!-- <script type='text/javascript' id='cookie-notice-front-js-extra'>
+            var cnArgs = {
+                "ajaxUrl": "https:\/\/www.instinctools.com\/wp-admin\/admin-ajax.php",
+                "nonce": "117603ceda",
+                "hideEffect": "fade",
+                "position": "bottom",
+                "onScroll": "0",
+                "onScrollOffset": "100",
+                "onClick": "0",
+                "cookieName": "cookie_notice_accepted",
+                "cookieTime": "604800",
+                "cookieTimeRejected": "604800",
+                "cookiePath": "\/",
+                "cookieDomain": "",
+                "redirection": "0",
+                "cache": "0",
+                "refuse": "0",
+                "revokeCookies": "0",
+                "revokeCookiesOpt": "automatic",
+                "secure": "1"
+            };
+        </script> -->
+        <!-- <script
+            type='text/javascript'
+            src='https://www.instinctools.com/wp-content/plugins/cookie-notice/includes/../js/front.min.js'
+            id='cookie-notice-front-js'></script> -->
+        <script type='text/javascript' id='lazysizes-js-before'>
+            window.lazySizesConfig = window.lazySizesConfig || {};
+        </script>
+        <script
+            type='text/javascript'
+            async="async"
+            src='../js/lazysizes.min.js'
+            id='lazysizes-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/hoverIntent.min.js'
+            id='hoverIntent-js'></script>
+        <script type='text/javascript' id='megamenu-js-extra'>
+            var megamenu = {
+                "timeout": "300",
+                "interval": "100"
+            };
+        </script>
+        <script
+            type='text/javascript'
+            src='../js/autoptimize_single_555104262156dba64cde431c018b0a28.js'
+            id='megamenu-js'></script>
+        <script
+            type='text/javascript'
+            src='./js/wp-embed.min.js'
+            id='wp-embed-js'></script>
+        <script
+            type='text/javascript'
+            src='../js/autoptimize_single_c0b160d763e6289d0fdcba5da4833ab2.js'
+            id='wpcf7-recaptcha-controls-js'></script>
+        <script type='text/javascript' id='google-recaptcha-js-extra'>
+            var wpcf7iqfix = {
+                "recaptcha_empty": "Please verify that you are not a robot.",
+                "response_err": "wpcf7-recaptcha: Could not verify reCaptcha response."
+            };
+        </script>
+        <script
+            type='text/javascript'
+            defer="defer"
+            async="async"
+            src='https://www.google.com/recaptcha/api.js?hl=en_US&#038;onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'
+            id='google-recaptcha-js'></script>
+        <!-- <div
+            id="cookie-notice"
+            role="banner"
+            class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom"
+            aria-label="Cookie Notice"
+            style="background-color: rgba(23,30,42,1);">
+            <div class="cookie-notice-container" style="color: #fff;">
+                <span id="cn-notice-text" class="cn-text-container">By continuing to use the site, you agree to the use of cookies</span>
+                <span id="cn-notice-buttons" class="cn-buttons-container">
+                    <a
+                        href="#"
+                        id="cn-accept-cookie"
+                        data-cookie-set="accept"
+                        class="cn-set-cookie cn-button"
+                        aria-label="Accept">Accept</a>
+                    <a
+                        href="https://www.instinctools.com/privacy-policy"
+                        target="_blank"
+                        id="cn-more-info"
+                        class="cn-more-info cn-button"
+                        aria-label="more information">more information</a>
+                </span>
+                <a
+                    href="javascript:void(0);"
+                    id="cn-close-notice"
+                    data-cookie-set="accept"
+                    class="cn-close-icon"
+                    aria-label="Accept"></a>
+            </div>
+        </div> -->
+        <!-- <script>
+            var preloadLink = document.createElement("link");
+            if (window.innerWidth > 1011) {
+                preloadLink.href = "/wp-content/themes/instinctools/image/header/home.webm";
+                preloadLink.rel = "preload";
+                preloadLink.as = "video";
+                document
+                    .head
+                    .appendChild(preloadLink);
+            } else if (window.innerWidth < 1011 && window.innerWidth > 575) {
+                preloadLink.href = "/wp-content/themes/instinctools/image/header/homeM.webm";
+                preloadLink.rel = "preload";
+                preloadLink.as = "video";
+                document
+                    .head
+                    .appendChild(preloadLink);
+            }
+        </script> -->
+        <script
+            type="text/javascript"
+            src="../js/widget.js"
+            async="async"></script>
+        <script
+            type="text/javascript"
+            src="../js/widget.min.js"
+            async="async"></script>
+        <!-- <script language="JavaScript" type="text/javascript" async="async">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                },
+                i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m
+                    .parentNode
+                    .insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-20284005-1', 'auto');
+            ga('send', 'pageview');
+            ga('set', 'anonymizeIp', true);
+        </script>
+        <script>
+            jQuery(document).ready(function ($) {
+                urls = ['/career'];
+                urls.forEach((element) => {
+                    $('a[href="https://www.instinctools.com' + element + '"]')
+                        .parent()
+                        .hide();
+                    $('a[href="https://www.instinctools.com/de' + element + '"]')
+                        .parent()
+                        .hide();
+                })
+            });
+        </script> -->
+        <!-- <script src="//code.jivosite.com/widget/byeQDCC7IF" async="async"></script> -->
+        <!-- <div class="go-to-top">
+            <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewbox="0 0 24.1 64"
+                style="enable-background:new 0 0 24.1 64;"
+                xml:space="preserve">
+                <g>
+                    <path
+                        class="st0"
+                        d="M12,24L12,24C5.9,24,0.9,29,0.9,35.1v16.7c0,6.1,5,11.1,11.1,11.1h0c6.1,0,11.1-5,11.1-11.1V35.1
+ C23.1,29,18.1,24,12,24z M21.6,51.8c0,5.3-4.3,9.6-9.6,9.6c-5.3,0-9.6-4.3-9.6-9.6V35.1c0-5.3,4.3-9.6,9.6-9.6
+ c5.3,0,9.6,4.3,9.6,9.6V51.8z"/>
+                    <path
+                        class="st0"
+                        d="M12,29.3c-0.4,0-0.8,0.4-0.8,0.8v4.6c0,0.4,0.4,0.8,0.8,0.8s0.8-0.4,0.8-0.8v-4.6C12.8,29.7,12.4,29.3,12,29.3
+ z"/>
+                    <path
+                        class="st0"
+                        d="M5.7,16.1c0.1,0,0.2,0,0.3-0.1l6.2-6.2l6.1,6.1c0.2,0.2,0.4,0.2,0.6,0s0.2-0.4,0-0.6l-6.6-6.6l-6.7,6.7
+ c-0.2,0.2-0.2,0.4,0,0.6C5.5,16,5.6,16.1,5.7,16.1z"/>
+                    <path
+                        class="st0"
+                        d="M5.7,7.9c0.1,0,0.2,0,0.3-0.1l6.2-6.2l6.1,6.1c0.2,0.2,0.4,0.2,0.6,0c0.2-0.2,0.2-0.4,0-0.6l-6.6-6.6L5.4,7.2
+ c-0.2,0.2-0.2,0.4,0,0.6C5.5,7.8,5.6,7.9,5.7,7.9z"/>
+                </g>
+            </svg>
+        </div> -->
+    </body>
+</html>
